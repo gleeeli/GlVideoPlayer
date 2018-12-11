@@ -7,15 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1953F64121BF647A00502DE9 /* GlPlayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1953F63C21BF647A00502DE9 /* GlPlayerView.m */; };
+		1953F64221BF647A00502DE9 /* GlControlView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1953F63D21BF647A00502DE9 /* GlControlView.m */; };
+		1953F64321BF647A00502DE9 /* GlAVPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 1953F63E21BF647A00502DE9 /* GlAVPlayer.m */; };
 		196A628521BA24F3007FA430 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 196A628421BA24F3007FA430 /* AppDelegate.m */; };
 		196A628821BA24F3007FA430 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 196A628721BA24F3007FA430 /* ViewController.m */; };
 		196A628B21BA24F3007FA430 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 196A628921BA24F3007FA430 /* Main.storyboard */; };
 		196A628D21BA24F5007FA430 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 196A628C21BA24F5007FA430 /* Assets.xcassets */; };
 		196A629021BA24F5007FA430 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 196A628E21BA24F5007FA430 /* LaunchScreen.storyboard */; };
 		196A629321BA24F5007FA430 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 196A629221BA24F5007FA430 /* main.m */; };
+		23E0E16C7AB80EAB7350166B /* libPods-GlVideoPlayer.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 92E1D7C1ECB12477C9687DF7 /* libPods-GlVideoPlayer.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		12BF5C83D9A40E7B199A03B5 /* Pods-GlVideoPlayer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GlVideoPlayer.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GlVideoPlayer/Pods-GlVideoPlayer.debug.xcconfig"; sourceTree = "<group>"; };
+		1953F63A21BF647A00502DE9 /* GlAVPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GlAVPlayer.h; sourceTree = "<group>"; };
+		1953F63B21BF647A00502DE9 /* GlControlView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GlControlView.h; sourceTree = "<group>"; };
+		1953F63C21BF647A00502DE9 /* GlPlayerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GlPlayerView.m; sourceTree = "<group>"; };
+		1953F63D21BF647A00502DE9 /* GlControlView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GlControlView.m; sourceTree = "<group>"; };
+		1953F63E21BF647A00502DE9 /* GlAVPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GlAVPlayer.m; sourceTree = "<group>"; };
+		1953F63F21BF647A00502DE9 /* GlPlayerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GlPlayerView.h; sourceTree = "<group>"; };
+		1953F64021BF647A00502DE9 /* GlCommHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GlCommHeader.h; sourceTree = "<group>"; };
 		196A628021BA24F3007FA430 /* GlVideoPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GlVideoPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		196A628321BA24F3007FA430 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		196A628421BA24F3007FA430 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -26,6 +38,8 @@
 		196A628F21BA24F5007FA430 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		196A629121BA24F5007FA430 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		196A629221BA24F5007FA430 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		42CBF7C5B52483426E904E41 /* Pods-GlVideoPlayer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GlVideoPlayer.release.xcconfig"; path = "Pods/Target Support Files/Pods-GlVideoPlayer/Pods-GlVideoPlayer.release.xcconfig"; sourceTree = "<group>"; };
+		92E1D7C1ECB12477C9687DF7 /* libPods-GlVideoPlayer.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GlVideoPlayer.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +47,34 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				23E0E16C7AB80EAB7350166B /* libPods-GlVideoPlayer.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1953F63921BF647A00502DE9 /* GlAVPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				1953F63A21BF647A00502DE9 /* GlAVPlayer.h */,
+				1953F63E21BF647A00502DE9 /* GlAVPlayer.m */,
+				1953F64021BF647A00502DE9 /* GlCommHeader.h */,
+				1953F63B21BF647A00502DE9 /* GlControlView.h */,
+				1953F63D21BF647A00502DE9 /* GlControlView.m */,
+				1953F63F21BF647A00502DE9 /* GlPlayerView.h */,
+				1953F63C21BF647A00502DE9 /* GlPlayerView.m */,
+			);
+			path = GlAVPlayer;
+			sourceTree = "<group>";
+		};
 		196A627721BA24F3007FA430 = {
 			isa = PBXGroup;
 			children = (
 				196A628221BA24F3007FA430 /* GlVideoPlayer */,
 				196A628121BA24F3007FA430 /* Products */,
+				4BE7036E5D03EA5C17505788 /* Pods */,
+				F3C9DC827F38B9AB942086E8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,6 +89,7 @@
 		196A628221BA24F3007FA430 /* GlVideoPlayer */ = {
 			isa = PBXGroup;
 			children = (
+				1953F63921BF647A00502DE9 /* GlAVPlayer */,
 				196A628321BA24F3007FA430 /* AppDelegate.h */,
 				196A628421BA24F3007FA430 /* AppDelegate.m */,
 				196A628621BA24F3007FA430 /* ViewController.h */,
@@ -71,6 +103,23 @@
 			path = GlVideoPlayer;
 			sourceTree = "<group>";
 		};
+		4BE7036E5D03EA5C17505788 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				12BF5C83D9A40E7B199A03B5 /* Pods-GlVideoPlayer.debug.xcconfig */,
+				42CBF7C5B52483426E904E41 /* Pods-GlVideoPlayer.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F3C9DC827F38B9AB942086E8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				92E1D7C1ECB12477C9687DF7 /* libPods-GlVideoPlayer.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -78,6 +127,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 196A629621BA24F5007FA430 /* Build configuration list for PBXNativeTarget "GlVideoPlayer" */;
 			buildPhases = (
+				C81F28BC673BD9F6862A0263 /* [CP] Check Pods Manifest.lock */,
 				196A627C21BA24F3007FA430 /* Sources */,
 				196A627D21BA24F3007FA430 /* Frameworks */,
 				196A627E21BA24F3007FA430 /* Resources */,
@@ -136,12 +186,36 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		C81F28BC673BD9F6862A0263 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GlVideoPlayer-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		196A627C21BA24F3007FA430 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1953F64321BF647A00502DE9 /* GlAVPlayer.m in Sources */,
+				1953F64121BF647A00502DE9 /* GlPlayerView.m in Sources */,
 				196A628821BA24F3007FA430 /* ViewController.m in Sources */,
+				1953F64221BF647A00502DE9 /* GlControlView.m in Sources */,
 				196A629321BA24F5007FA430 /* main.m in Sources */,
 				196A628521BA24F3007FA430 /* AppDelegate.m in Sources */,
 			);
@@ -283,10 +357,12 @@
 		};
 		196A629721BA24F5007FA430 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 12BF5C83D9A40E7B199A03B5 /* Pods-GlVideoPlayer.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = GlVideoPlayer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -299,10 +375,12 @@
 		};
 		196A629821BA24F5007FA430 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 42CBF7C5B52483426E904E41 /* Pods-GlVideoPlayer.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = GlVideoPlayer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
