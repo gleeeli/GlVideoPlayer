@@ -2,6 +2,7 @@
 封装的一个AVplayer
 
 支持的格式 是网上找的 没验证：
+
 一、avplayer支持的格式如下：
 支持视频格式: WMV,AVI,MKV,RMVB,RM,XVID,MP4,3GP,MPG …
 
